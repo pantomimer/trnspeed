@@ -1,0 +1,96 @@
+BODY,TABLE {
+ font-family:Verdana,Osaka;
+ color:#000000;
+ font-size:12px;
+ line-height:1.8;
+ text-align:center;
+ margin:0px;
+ background-color:#ffffff;
+ scrollbar-3dlight-color:    #ffffff;
+ scrollbar-arrow-color:      #ffffff;
+ scrollbar-base-color:       #ffffff;
+ scrollbar-darkshadow-color: #ffffff;
+ scrollbar-face-color:       #000000;
+ scrollbar-highlight-color:  #000000;
+ scrollbar-shadow-color:     #000000;
+ scrollbar-track-color:      #ffffff;
+}
+
+/* 通常リンク */
+A:link   {text-decoration: underline; color:#000000; }
+A:visited{text-decoration: underline; color:#000000; }
+A:active {text-decoration: underline; color:#000000;}
+A:hover  {text-decoration: none; color:#333333;}
+
+/* メニューリンク */
+.menu {text-align:center; color:#000000;background-color:#CCCCCC;}
+.cont{text-align:left; color:#000000; background-color:#FFFFFF;}
+.menu ul {list-style-type:none; list-style-position: outside;margin:0px;padding:0px;}
+.menu li {margin-left:0px; padding:0px;width:80px;float:left;}
+.menu li a{height:24px;line-height:24px;width:80px;display:block;text-decoration : none;
+padding:0px;float:left;}
+.menu li a:link   {color:#ffffff;background-color:#000000;text-decoration : none;}
+.menu li a:visited{color:#ffffff;background-color:#000000;text-decoration : none;}
+.menu li a:active {color:#ffffff;background-color:#000000;text-decoration : none;}
+.menu li a:hover  {color:#333333;background-color:#cccccc;text-decoration : none;}         
+
+/* サイド欄リンク */
+.side a:link   {text-decoration: none; color:#000000;font-size:10px;}
+.side a:visited{text-decoration: none; color:#000000;font-size:10px;}
+.side a:active {text-decoration: none; color:#000000;font-size:10px;}
+.side a:hover  {text-decoration: none; color:#ffffff;font-size:10px;}
+
+/* ヘッダー */
+.header{text-align:left;background-color:#eeeeee;}
+
+/* カウンター */
+.counter{text-align:right;font-size:10px;color:#000000;padding:0px 15px;
+margin:0px;line-height:15px;height:15px;}
+
+/* タイトル */
+.t{text-align:left;font-size:24px;color:#000000;font-weight:normal;margin-top:20px;
+font-family:Century Gpthic,Arial,Verdana;padding:0px 10px;height:40px;line-height:40px;}
+
+/* サイド欄見出し */
+h1{font-size:10px;height:20px;line-height:20px;font-weight:bold;margin-bottom:5px;}
+
+/* 見出し */
+h2{text-align:left; font-size:10px;margin:0px;padding:0px 8px;font-weight:normal;
+line-height:26px;height:26px;background-color:#eeeeee;color:#000000;
+border:1px solid #000000;}
+
+/* 大見出し */
+h3{text-align:left; font-size:12px;padding:0px 10px;margin:15px 15px 30px 15px;font-weight:normal;
+line-height:16px;height:16px;background-color:#fffff;color:#000000;
+border-left:10px solid #000000;}
+
+/* 文章部分 */
+p{text-align:left; margin:10px 10px;}
+
+/* 文章部分枠 */
+.c{text-align:left; background-color:#ffffff;margin:15px 15px 40px 15px;}
+
+/* ページ大枠 */
+#outline{ text-align:left;width:100%;padding:0px;margin:0px;background-color:#ffffff;}
+
+/* ページ内枠 わからない人はいじらないように */
+#inline{padding:0px;margin:0px;text-align:left;width:950px;}
+
+/* サイド */
+.side{width:140px;float:left;text-align:left;font-size:10px;margin:15px;}
+
+/* メイン欄 */
+.main{width:770px;float:right;text-align:left;background-color:#ffffff;}
+
+/* サブ情報 */
+.sub{font-size:10px;}
+
+/* 回りこみ防止 */
+.boushi{clear:both;}
+
+/* コピーライト */
+.copy{text-align:center; background-color:#ffffff;line-height:25px; height:25px;
+color:#000000; padding:0px 10px;margin:0px;font-size:10px;}
+
+/* マージン */
+.margin{margin:15px;}
